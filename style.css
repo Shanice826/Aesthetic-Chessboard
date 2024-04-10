@@ -1,0 +1,24 @@
+
+
+.board{
+    height: 400px;
+    width: 400px;
+    display: block;
+    border: 15px solid #86469C;
+}
+.piece-square{
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.light-square{
+    background-color: #FB9AD1;
+}
+.dark-square{
+    background-color: #BC7FCD;
+}
